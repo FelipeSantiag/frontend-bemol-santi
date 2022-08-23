@@ -33,7 +33,6 @@ function App() {
 
   return (
     <div className="App">
-     
       <Formik
         onSubmit={onSubmit}
         validateOnMount
@@ -119,7 +118,6 @@ function App() {
           </Form>
         )}
       />
-     
     </div>
   );
 }
